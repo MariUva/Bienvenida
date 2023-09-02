@@ -8,6 +8,7 @@ public class Cliente {
 
     @Id private String cedula;
 
+    
     private String nombre;
     private String email;
     private String telefono;
@@ -31,5 +32,5 @@ public class Cliente {
         return telefono;
     }
 
-    
+
 }
